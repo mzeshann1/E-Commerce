@@ -2092,12 +2092,18 @@ display: none;
     justify-content: center;
     align-items: center;
 }
-#fo4button{
+.fo4subdiv2 a{
     border-radius:  10px;
     background-color:rgba(0, 153, 255, 0.849) ;
+    text-decoration: none;
+    color: black;
+    padding: 5px;
+    border : 1px solid;
 }
-#fo4button:hover{
-    background-color: rgba(255, 0, 0, 0.705);
+.fo4subdiv2 a:hover{
+    background-color: var(--redcolor);
+    transition: 0.75s;
+    color: white;
 }
 #fo4color{
     color: rgba(0, 153, 255, 0.849);
