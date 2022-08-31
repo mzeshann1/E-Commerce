@@ -14,7 +14,7 @@
 /* start navigation-bar */
 
 .head {
-  width: 100%;
+  width: 100%; 
   background-color: white;
   display: flex;
 }
